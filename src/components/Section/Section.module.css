@@ -1,0 +1,22 @@
+.feedbackFrom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 24px;
+
+  background: linear-gradient(to right, rgb(210, 231, 30), rgb(61, 61, 232));
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(78, 77, 77);
+}
+
+.feedbackFrom__title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  line-height: 1.4;
+}
